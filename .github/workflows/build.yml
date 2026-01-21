@@ -21,7 +21,7 @@ jobs:
         run: |
           python - <<EOF
           from PIL import Image
-          img = Image.open("eren.png")
+          img = Image.open("eren_yeager.jpg")
           img = img.resize((256,256))
           img.save("eren.ico", format="ICO")
           EOF
